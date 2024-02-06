@@ -17,8 +17,6 @@ export default function useOnClickOutside(ref, handler) {
         document.removeEventListener("touchstart", listener);
       };
     },
-
-      jvgiyjubghji
     // Add ref and handler to effect dependencies
     // It's worth noting that because the passed-in handler is a new ...
     // ... function on every render that will cause this effect ...
